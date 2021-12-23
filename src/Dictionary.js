@@ -11,7 +11,7 @@ export default function Dictionary() {
     setResults(response.data[0]);
   }
 
-  function search(event) {
+  function handleSubmit(event) {
     event.preventDefault();
 
     //documentation: https://dictionaryapi.dev/
@@ -26,9 +26,12 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} />
-      </form>
+      <section>
+        <form onSubmit={handleSubmit}>
+          <input type="search" onChange={handleKeywordChange} />
+        </form>
+        <div className="hint">suggested words: sunset, wine, plant</div>
+      </section>
       <Results results={results} />
     </div>
   );
