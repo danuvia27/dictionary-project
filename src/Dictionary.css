@@ -1,9 +1,10 @@
 .Dictionary section {
-  background: lightgray;
   padding: 30px;
+  background: #faf9f8;
   border-radius: 6px;
   box-shadow: 0 5px 10px rgb(0 0 0/ 10%);
   margin: 20px 0;
+  font-family: "Cinzel", serif;
 }
 
 .Dictionary input {
@@ -17,4 +18,5 @@
 .Dictionary .hint {
   font-size: 11px;
   margin-top: 5px;
+  font-family: "Cinzel", serif;
 }

@@ -44,7 +44,7 @@ export default function Dictionary() {
             onChange={handleKeywordChange}
           />
         </form>
-        <div className="hint">suggested words: sunset, wine, plant</div>
+        <div className="hint">suggested words: sunset, wine, plant, ocean</div>
       </section>
       <Results results={results} />
       <Photos photos={photos} />

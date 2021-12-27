@@ -11,6 +11,7 @@
   font-weight: bold;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
+  font-family: "Cinzel", serif;
 }
 
 .Phonetic a:hover {
