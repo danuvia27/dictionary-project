@@ -10,9 +10,9 @@ export default function App() {
         <header className="App-header"></header>
         <div className="header">
           <h1>Dictionary</h1>
-        </div>
-        <div className="icon">
-          <FontAwesomeIcon icon={faBook}></FontAwesomeIcon>
+          <span className="icon">
+            <FontAwesomeIcon icon={faBook}></FontAwesomeIcon>
+          </span>
         </div>
         <main>
           <Dictionary defaultKeyword="sunset" />

@@ -1,14 +1,13 @@
 body {
+  text-align: center;
 }
 
-.header {
-  font-size: px;
-}
-
-.App-logo {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
+.header h1 {
+  font-size: 50px;
+  color: black;
+  display: inline-block;
+  margin-right: 17px;
+  font-family: "Source Code Pro", monospace;
 }
 
 .App {
@@ -17,13 +16,15 @@ body {
 }
 
 .App-header {
-  margin: 30px 0;
+  margin: 40px 0;
 }
 
 .App-footer {
   text-align: center;
+  font-family: "Oooh Baby", cursive;
   margin: 30px 0;
 }
 .icon {
   font-size: 40px;
+  color: black;
 }
